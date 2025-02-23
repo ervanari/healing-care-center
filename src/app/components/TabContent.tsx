@@ -31,14 +31,7 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
                             className="w-full sm:w-auto max-w-[17.5rem]"
                         >
                             <button className="py-3 px-4 w-full sm:w-auto rounded-full bg-[#2F9EBD] text-white text-base sm:text-lg flex items-center justify-center gap-2.5">
-                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M22.47 18.9476C22.47 19.3076 22.39 19.6776 22.22 20.0376..."
-                                        stroke="currentColor"
-                                        strokeWidth="1.5"
-                                        strokeMiterlimit="10"
-                                    ></path>
-                                </svg>
+                                <img width="25" height="25" src="https://img.icons8.com/fluency/50/video-message.png" alt="video-message"/>
                                 Video Call via JakCare
                             </button>
                         </a>
@@ -46,7 +39,7 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
                 </div>
             ) : (
                 <div>
-                    <ul className="flex flex-col list-disc mt-4 pl-4">
+                <ul className="flex flex-col list-disc mt-4 pl-4">
                         <li className="text-sm sm:text-base md:text-lg text-black leading-relaxed">
                             Kamu tersambung dengan konselor di Whatsapp
                         </li>
@@ -67,15 +60,11 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
                             target="_blank"
                             className="w-full sm:w-auto max-w-[17.5rem]"
                         >
-                            <button className="py-3 px-4 w-full sm:w-auto rounded-full bg-[#2F9EBD] text-white text-base sm:text-lg flex items-center justify-center gap-2.5">
-                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M22.47 18.9476C22.47 19.3076 22.39 19.6776 22.22 20.0376..."
-                                        stroke="currentColor"
-                                        strokeWidth="1.5"
-                                        strokeMiterlimit="10"
-                                    ></path>
-                                </svg>
+                            <button
+                                className="py-3 px-4 w-full sm:w-auto rounded-full bg-[#2F9EBD] text-white text-base sm:text-lg flex items-center justify-center gap-2.5">
+                                <img width="25" height="25"
+                                     src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                                     alt="whatsapp"/>
                                 Chat Whatsapp
                             </button>
                         </a>

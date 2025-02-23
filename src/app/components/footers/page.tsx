@@ -7,7 +7,7 @@ const Footer = () => {
             <p className="text-md font-medium md:text-base text-white">
                 Layanan Hotline Kesehatan Mental dan Bunuh Diri
                 <br />
-                Kementerian Kesehatan
+                Dinas Kesehatan Provinsi Jakarta
             </p>
             <Image
                 src={Logo}

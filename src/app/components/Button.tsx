@@ -6,7 +6,7 @@ interface ButtonProps {
     onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ title , description, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ title, description, onClick }) => {
     return (
         <div className="bg-white rounded-3xl shadow-custom p-6 md:p-8" onClick={onClick}>
             <div className="flex items-center justify-center space-x-3.5 cursor-pointer">

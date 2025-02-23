@@ -1,10 +1,12 @@
 "use client";
 import type { NextPage } from 'next'
 import { useState } from "react";
-import Header from '@/app/components/headers/page'
-import Button from '@/app/components/buttons/page'
-import Footer from '@/app/components/footers/page'
-import Modal from '@/app/components/modal/page'
+import dynamic from 'next/dynamic';
+
+const Header = dynamic(() => import('@/app/components/headers/page'));
+const Button = dynamic(() => import('@/app/components/Button'));
+const Footer = dynamic(() => import('@/app/components/footers/page'));
+const Modal = dynamic(() => import('@/app/components/Modal'));
 
 const Home: NextPage = () => {
     const [modalType, setModalType] = useState<"emergency" | "counseling" | null>(null);

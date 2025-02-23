@@ -30,7 +30,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, type }) => {
                             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-black mt-4">
                                 Anda akan terhubung dengan layanan darurat
                                 <span className="text-[#03799A]">
-                                    <a href="tel:119" rel="noopener noreferrer" target="_blank" className="no-underline"> JakCare </a>
+                                    <a href="https://api.whatsapp.com/send/?phone=628973856130&text=halo" rel="noopener noreferrer" className="no-underline"> JakCare </a>
                                 </span>
                             </h3>
                             <p className="mt-4 text-sm sm:text-base md:text-lg text-black mb-6">
@@ -47,7 +47,6 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, type }) => {
                                 </ul>
                                 <div className="flex flex-col md:flex-row gap-4 md:justify-between md:items-center mt-6">
                                     <a href="https://api.whatsapp.com/send/?phone=628973856130&text=halo"
-                                       target="_blank"
                                        rel="noopener noreferrer"
                                        className="w-full max-w-sm">
                                         <button
@@ -60,6 +59,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, type }) => {
                                                     strokeMiterlimit="10"></path>
                                             </svg>
                                             Hubungi JakCare
+                                            <br/>
+                                            02129292903
                                         </button>
                                     </a>
                                 </div>
@@ -69,24 +70,31 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, type }) => {
                                     </p>
                                     <ul className="flex flex-col md:flex-row gap-2 sm:gap-4 mt-2">
                                         <li>
-                                            <a href="https://api.whatsapp.com/send/?phone=628973856130" target="_blank"
-                                               rel="noopener noreferrer" className="flex items-center gap-2">
+                                            <a
+                                                href="https://api.whatsapp.com/send/?phone=628973856130"
+                                                rel="noopener noreferrer"
+                                                className="flex items-center gap-2"
+                                            >
                                                 <img width="25" height="25"
                                                      src="https://img.icons8.com/color/48/whatsapp--v1.png"
                                                      alt="whatsapp"/>
-                                                <p className="underline text-[#03799A] text-sm sm:text-base">Chat
-                                                    WhatsApp</p>
+                                                <p className="underline text-[#03799A] text-sm sm:text-base">
+                                                    Chat WhatsApp
+                                                </p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://vcall-chat.mala-widiyanto.workers.dev/set-username"
-                                               target="_blank" rel="noopener noreferrer"
-                                               className="flex items-center gap-2">
+                                            <a
+                                                href="https://vcall-chat.mala-widiyanto.workers.dev/set-username"
+                                                rel="noopener noreferrer"
+                                                className="flex items-center gap-2"
+                                            >
                                                 <img width="25" height="25"
                                                      src="https://img.icons8.com/fluency/50/video-message.png"
                                                      alt="video-message"/>
-                                                <p className="underline text-[#03799A] text-sm sm:text-base">Video Call
-                                                    JakCare</p>
+                                                <p className="underline text-[#03799A] text-sm sm:text-base">
+                                                    Video Call JakCare
+                                                </p>
                                             </a>
                                         </li>
                                     </ul>

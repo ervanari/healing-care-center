@@ -27,7 +27,6 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
                         <a
                             href="https://vcall-chat.mala-widiyanto.workers.dev/set-username"
                             rel="noopener noreferrer"
-                            target="_blank"
                             className="w-full sm:w-auto max-w-[17.5rem]"
                         >
                             <button className="py-3 px-4 w-full sm:w-auto rounded-full bg-[#2F9EBD] text-white text-base sm:text-lg flex items-center justify-center gap-2.5">
@@ -57,7 +56,6 @@ const TabContent: React.FC<TabContentProps> = ({ activeTab }) => {
                         <a
                             href="https://api.whatsapp.com/send/?phone=628973856130&text=halo%20kak%2C%20saya%20ingin%20bercerita%20mengenai...&type=phone_number&app_absent=0"
                             rel="noopener noreferrer"
-                            target="_blank"
                             className="w-full sm:w-auto max-w-[17.5rem]"
                         >
                             <button
